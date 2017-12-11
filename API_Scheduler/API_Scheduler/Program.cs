@@ -36,7 +36,7 @@ namespace API_Scheduler
             var apiString = "";
             switch (apiCall)
             {
-                case "DeleteUser":
+                case "GetUser":
                     {
 
                         var userId = "5";
@@ -48,7 +48,7 @@ namespace API_Scheduler
                         break;
                     }
 
-                case "SendActivate":
+                case "ActivateUser":
                     {
                         apiString = "post";
 
