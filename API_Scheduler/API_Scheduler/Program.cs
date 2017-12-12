@@ -48,7 +48,7 @@ namespace API_Scheduler
                         break;
                     }
 
-                case "ActivateUser":
+                case "PostUser":
                     {
                         apiString = "post";
 
