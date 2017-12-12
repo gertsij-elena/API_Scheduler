@@ -39,9 +39,9 @@ namespace API_Scheduler
                 case "GetItem":
                     {
 
-                        var userId = "5";
+                        var id = "5";
 
-                        apiString = "get?show_env=" + userId;
+                        apiString = "get?show_env=" + id;
 
                         responseMessage = await CallAPI(apiString,Api.Get);
 
