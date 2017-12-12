@@ -36,7 +36,7 @@ namespace API_Scheduler
             var apiString = "";
             switch (apiCall)
             {
-                case "GetUser":
+                case "GetItem":
                     {
 
                         var userId = "5";
@@ -48,9 +48,9 @@ namespace API_Scheduler
                         break;
                     }
 
-                case "PostUser":
+                case "PostItem":
                     {
-                        apiString = "post";
+                        apiString = "forms/post";
 
                         responseMessage = await CallAPI(apiString,Api.Post);
 
